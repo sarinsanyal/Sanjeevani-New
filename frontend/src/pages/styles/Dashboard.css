@@ -1,0 +1,67 @@
+/* styles.css */
+.hospital-list, .user-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .hospital-item, .user-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px #0000001a;
+    transition: border 0.8s ease-in-out;
+    transform: background-color 0.8s ease-in-out;;
+  }
+
+  .hospital-item:hover, .user-item:hover {
+    background-color: #e9ecef;
+    border: 1px solid black;
+  }
+  
+  .hospital-name, .user-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .request-button, .release-button{
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+  }
+  
+  .request-button:disabled, .release-button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+  .cancel-button, .refer-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .cancel-button:hover, .refer-button:hover {
+    background-color: #c82333;
+  }
+  
