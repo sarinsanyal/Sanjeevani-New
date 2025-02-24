@@ -33,11 +33,7 @@ router.post('/register', async (req, res) => {
         return res.status(400).json({ message: 'Total beds and empty beds are required for hospitals.' });
     }
 
-    // No need a validation for name
-    // const nameRegex = /^[A-Za-z]+(\s[A-Za-z]+)*$/;
-    // if (!nameRegex.test(name)) {
-    //     return res.status(400).json({ message: 'Name must contain only English letters and spaces.' });
-    // }
+    // No need of validation for name
 
     if (name.length > 100) {
         return res.status(400).json({ message: 'Name must be 100 characters or less.' });
@@ -102,7 +98,8 @@ router.post('/register', async (req, res) => {
 
         await newUser.save();
         res.status(201).json({ message: 'User registered successfully' });
-    } catch (err) {
+    } 
+    catch (err) {
         console.log(err.message);
         return res.status(500).json({ message: 'Something went wrong' });
     }
@@ -148,22 +145,9 @@ router.post('/login', async (req, res) => {
         }
 
         req.session.user = user;
-        // req.session.user = {
-        //     userType: user.userType,
-        //     name: user.name,
-        //     age: user.age,
-        //     totalBeds: user.totalBeds,
-        //     emptyBeds: user.emptyBeds,
-        //     username: user.username,
-        //     avatar: user.avatar,
-        //     state: user.state,
-        //     to: user.to,
-        //     requests: user.requests,
-        //     admits: user.admits,
-        // };
-
         res.status(200).json({ message: 'Login successful' });
-    } catch (err) {
+    } 
+    catch (err) {
         console.log(err.message)
         return res.status(500).json({ message: "Something went wrong" });
     }
