@@ -63,7 +63,7 @@ Although **not currently blockchain-based**, we have a vision of integrating **b
 
 ---
 ##  Contact
-For inquiries, contact **sarinsanyal2005@gmail.com** or visit our GitHub repository https://github.com/malay77patra/Hospital-Referral-Double-Slash
+For inquiries, contact **sarinsanyal2005@gmail.com** or visit our GitHub repository https://github.com/sarinsanyal/Sanjeevani-New
 
 Thank you!
 Team GodsOfDev.
