@@ -54,7 +54,7 @@ Although **not currently blockchain-based**, we have a vision of integrating **b
 
 ---
 ##  Tech Stack
-- **Frontend:** HTML, CSS, JavaScript
+- **Frontend:** ReactJS, JavaScript
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB 
 - **Smart Contracts:** Solidity *(Planned)*
