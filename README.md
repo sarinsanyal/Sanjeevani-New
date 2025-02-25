@@ -40,7 +40,7 @@ Although **not currently blockchain-based**, we have a vision of integrating **b
 - **Government & NGO Collaborations** – Potential for expansion with public health support.
 - **AI Integration** – Predictive bed allocation using AI algorithms.
 
-### ⚠ Threats
+###  Threats
 - **Data Privacy Regulations** – Compliance with HIPAA, GDPR, and other health data laws.
 - **Adoption Resistance** – Hospitals may hesitate to transition to new tech solutions.
 - **Cybersecurity Risks** – Must implement strong security measures to safeguard patient data.
