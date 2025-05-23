@@ -40,7 +40,7 @@ Although **not currently blockchain-based**, we have a vision of integrating **b
 - **Government & NGO Collaborations** – Potential for expansion with public health support.
 - **AI Integration** – Predictive bed allocation using AI algorithms.
 
-### ⚠ Threats
+###  Threats
 - **Data Privacy Regulations** – Compliance with HIPAA, GDPR, and other health data laws.
 - **Adoption Resistance** – Hospitals may hesitate to transition to new tech solutions.
 - **Cybersecurity Risks** – Must implement strong security measures to safeguard patient data.
@@ -54,7 +54,7 @@ Although **not currently blockchain-based**, we have a vision of integrating **b
 
 ---
 ##  Tech Stack
-- **Frontend:** HTML, CSS, JavaScript
+- **Frontend:** ReactJS, JavaScript
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB 
 - **Smart Contracts:** Solidity *(Planned)*
@@ -63,7 +63,7 @@ Although **not currently blockchain-based**, we have a vision of integrating **b
 
 ---
 ##  Contact
-For inquiries, contact **sarinsanyal2005@gmail.com** or visit our GitHub repository https://github.com/malay77patra/Hospital-Referral-Double-Slash
+For inquiries, contact **sarinsanyal2005@gmail.com** or visit our GitHub repository https://github.com/sarinsanyal/Sanjeevani-New
 
 Thank you!
 Team GodsOfDev.
