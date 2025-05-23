@@ -312,7 +312,7 @@ export default function Dashboard() {
                                 {hospitals.map((hospital, index) => (
                                     <li key={index} className="hospital-item">
                                         <span className="hospital-name">{hospital.name}</span>
-                                        <span className="available-beds">Available Beds: {hospital.emptyBeds}</span>
+                                        <span className="available-beds">Available   Beds: {hospital.emptyBeds}</span>
                                         <div className="button-group">
                                             <button
                                                 onClick={() => requestHospital(hospital.username)}
